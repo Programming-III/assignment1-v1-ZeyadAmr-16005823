@@ -7,6 +7,7 @@
 #include <iostream>
 using namespace std;
 
+
 //Animal
 std::string Animal::getName() {
 	return Animal::name;
@@ -26,6 +27,12 @@ void Animal::feed() {
 		std::cout << "HUNGRY";
 	else
 		std::cout << "NOT HUNGRY";
+}
+
+//Mammal
+Mammal::Mammal(std::string furColor) {
+	this->furColor = furColor;
+
 }
 //Bird
 Bird::Bird(float wingSpan) {
