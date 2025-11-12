@@ -8,9 +8,9 @@ class Bird : public Animal{
 private:
 	float wingSpan;
 
-
+public:
+	Bird(float wingSpan);
 };
-
 
 
 #endif
