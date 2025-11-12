@@ -9,9 +9,8 @@ private:
 	std::string furColor;
 
 public:
-	Mammal();
+	Mammal(std::string furColor);
 };
-
 
 
 
