@@ -3,8 +3,14 @@
 
 #include "Animal.h"
 
-//define mammal class here
+class Mammal: public Animal{
 
+private:
+	std::string furColor;
+
+public:
+	Mammal();
+};
 
 
 
