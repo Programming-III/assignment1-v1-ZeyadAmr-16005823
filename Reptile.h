@@ -3,13 +3,15 @@
 
 #include "Animal.h"
 
-//define reptile class here
+class Reptile : public Animal {
 
+private:
+	bool isVenomous;
 
+public:
+	Reptile(bool isVen);
 
-
-
-
+};
 
 
 
