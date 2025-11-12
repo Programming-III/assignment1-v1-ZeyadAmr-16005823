@@ -3,11 +3,20 @@
 
 #include "Animal.h"
 
-//define enclosure class here 
+class Enclosure {
 
+private:
+	Animal* animal_arr;
+	int capacity;
+	int currentCount;
 
+public:
+	void addAnimal(Animal* a);
+	void displayAnimals();
 
-
+	Enclosure(int capacity);
+	~Enclosure();
+};
 
 
 
