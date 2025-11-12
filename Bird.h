@@ -3,8 +3,6 @@
 
 #include "Animal.h"
 
-#include "Animal.h"
-
 class Bird : public Animal{
 
 private:
